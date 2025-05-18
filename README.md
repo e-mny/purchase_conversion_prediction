@@ -1,65 +1,23 @@
-# 🛒 Cart Abandonment Prediction
+# Purchase Conversion Prediction
 
-Predict cart abandonment in a simulated e-commerce scenario and provide an interactive platform for end-users (e.g., product managers, marketers) to explore predictions, analyze metrics, and simulate interventions like discounts or urgency banners.
+This repository contains a machine learning project aimed at predicting purchase conversions based on user behavior and other relevant features. The goal is to build a model that can help businesses optimize their marketing strategies and improve conversion rates.
 
----
+## Features
 
-## 🎯 Goal
+- Data preprocessing and feature engineering
+- Exploratory data analysis (EDA)
+- Model training and evaluation
+- Hyperparameter tuning
+- Deployment-ready scripts
 
-To predict which users are likely to abandon their cart and empower stakeholders to interact with predictions, explore key metrics, and simulate interventions to improve conversion rates.
+## Project Structure
 
----
-
-## 🔍 Key Features
-
-- **Predictive Modeling**: Identify users likely to abandon their cart using behavioral and session data.
-- **Interactive Dashboard**: Visualize predictions, key metrics, and simulate interventions.
-- **Scenario Simulation**: Test the impact of strategies like discounts, reminders, or urgency banners on cart abandonment rates.
-
----
-
-## 📈 Learning Outcomes
-
-- Build and evaluate predictive models for cart abandonment.
-- Engineer features from session data: product price, time on page, referral source, engagement patterns, etc.
-- Use SHAP for model interpretability to explain predictions.
-- Simulate and analyze the effectiveness of interventions on user behavior.
-- Gain insights into improving the e-commerce conversion funnel.
-
----
-
-## 🛠 Tech Stack
-
-- **Modeling**: Logistic Regression, Random Forest
-- **Interpretability**: SHAP (SHapley Additive exPlanations)
-- **Visualization**: Streamlit for interactive dashboards
-- **Dataset**: [UCI Online Shoppers Purchasing Intention Dataset](https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset)
-- **Languages**: Python
-
----
-
-## 📁 Repo Structure
-
-```bash
-purchase_retention_prediction/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_model_training.ipynb
-│   └── 04_shap_analysis.ipynb
-├── src/
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   ├── model.py
-│   ├── dashboard.py
-│   └── utils.py
-├── reports/
-│   └── figures/
-├── requirements.txt
-└── README.md
 ```
-
----
+purchase_conversion_prediction/
+├── data/               # Raw and processed datasets
+├── notebooks/          # Jupyter notebooks for EDA and prototyping
+├── src/                # Source code for data processing and modeling
+├── models/             # Saved models and checkpoints
+├── tests/              # Unit tests for the project
+├── README.md           # Project documentation
+```
